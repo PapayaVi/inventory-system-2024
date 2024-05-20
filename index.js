@@ -13,6 +13,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'src')));
+app.use(express.static(_path.join(__dirname, 'views')));
 app.set("view engine", "ejs",);
 
 
