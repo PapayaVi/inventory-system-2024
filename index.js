@@ -20,11 +20,9 @@ app.set("view engine", "ejs",);
 
 
 app.get("/", (req, res) => {
-   res.render("test")
+   res.render("home")
 })
 
 
 const port = process.env.PORT
-app.listen(port, () =>{
-   console.log("App running on : "+ port)
-})
+app.listen(port)

@@ -65,13 +65,17 @@ body {
 
 .sidebar-logo {
     margin: auto 0;
-}
-
-.sidebar-logo a {
     color: #FFF;
     font-size: 1.15rem;
     font-weight: 600;
+    transition: all .2s ease-out;
 }
+
+/* .sidebar-logo a {
+    color: #FFF;
+    font-size: 1.15rem;
+    font-weight: 600;
+} */
 
 #sidebar:not(.expand) .sidebar-logo,
 #sidebar:not(.expand) a.sidebar-link span {
@@ -87,7 +91,7 @@ a.sidebar-link {
     padding: .625rem 1.625rem;
     color: #FFF;
     display: block;
-    font-size: 0.9rem;
+    font-size: 1rem;
     white-space: nowrap;
     border-left: 3px solid transparent;
 }
